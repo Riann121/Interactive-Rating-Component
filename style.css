@@ -1,0 +1,140 @@
+
+.overpass-font{
+  font-family: "Overpass", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.overpass-bold{
+  font-family: "Overpass", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body{
+    display: flex;
+    height:100vh ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(216, 12%, 8%);
+    
+}
+html{
+    display: grid;
+    place-items: center;
+}
+.mainBox{
+
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    border-left: 50px;
+    align-items: left;
+    justify-content: center;
+    margin: auto;    
+    padding: 20px;
+    border-radius: 20px;
+    gap: 20px;
+    background:linear-gradient(to bottom,hsl(214, 18%, 28%),hsl(214, 20%, 14%));
+}
+img.star {
+    display: inline-block;
+}
+
+.margin{
+    margin: 0px;
+}
+.font_size{
+    font-size: 12px;
+}
+p{
+    font-size: 12px;
+    color: hsl(217, 12%, 63%);
+}
+h3{
+    font-style: bold;
+    color: hsl(0, 100%, 100%);
+}
+#circle{
+    display: flex;
+    width: 16px;
+    padding: 10px;
+    
+    justify-content: center;
+    border-radius: 50%;
+    background-color: hsl(212, 20%, 29%);
+}
+.listOfButton{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.mbutton{
+    border-radius: 55%;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 0px;
+    background-color:hsl(212, 20%, 29%);
+    color: hsl(217, 12%, 63%);
+    
+}
+.submit_related{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    border: 0px;
+    background-color: hsl(25, 97%, 53%);
+    color:hsl(216, 12%, 8%)
+}
+.clr_change{
+    background-color: hsl(0, 100%, 100%);
+    color: hsl(216, 12%, 8%);
+}
+.hover_change{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(216, 12%, 8%);
+}
+.hover_submit{
+    background-color: hsl(0, 100%, 100%);
+}
+
+.thankImg{
+    width: 120px;
+    height: 80px;
+}
+#secBox{
+    align-items: center;
+    padding: 30px;
+    width: 270px;
+    padding-left: 25px;
+    padding-right: 25px;
+    gap: 7px;
+}
+.p2{
+    text-align: center;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.h3{
+    padding-top: 20px;
+}
+.selectBox{
+    width: auto;
+    background-color: hsla(25, 97%, 53%, 0.119);
+    padding: 3px;
+    padding-left:7px ;
+    padding-right:7px ;
+    margin-top: 20px;
+    border-radius: 10px;
+
+
+    
+}
+
+.selectBox>p{
+    color: hsl(25, 97%, 53%);
+}
